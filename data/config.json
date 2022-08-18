@@ -1,5 +1,5 @@
 {
-    "version": "1.3.335",
+    "version": "1.4.0",
     "colors": {
         "purple": "0x8b628a",
         "brown": "0x8c867a",
@@ -12,7 +12,7 @@
         "gray": "#808080",
         "white": "#ffffff"
     },
-    "diceTypes": [2,4,6,8,10,12,20,100],
+    "diceTypes": [2,4,6,8,10,15,25,100,200,500,1000],
     "dices": {
         "main": [
             {
@@ -55,6 +55,14 @@
                 "costIncrease": 1.08,
                 "valueIncrease": 16,
                 "ascentIncrease": 100000
+            },
+			{
+                "startD": 2,
+                "cost": 1000000,
+                "value": 0,
+                "costIncrease": 1.08,
+                "valueIncrease": 32,
+                "ascentIncrease": 100000
             }
         ],
         "multi":[
@@ -82,6 +90,11 @@
                 "cost": 1600000000000,
                 "costIncrease": 50000,
                 "ascentIncrease": 100000000000000000000000000000000000000000000000000000
+            },
+			{
+                "cost": 320000000000000,
+                "costIncrease": 60000,
+                "ascentIncrease": 1000000000000000000000000000000000000000000000000000000000
             }
         ]
     }
